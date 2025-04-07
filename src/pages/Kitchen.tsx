@@ -61,12 +61,12 @@ const Kitchen = () => {
       timestamp: new Date().toISOString()
     },
     {
-      id: 2,
+      id: 6,
       queueNumber: 44,
       status: 'pending',
       items: [
         {
-          id: 2,
+          id: 6,
           name: "Classic Burger",
           description: "Juicy beef patty with fresh lettuce and tomatoes",
           price: 5.99,
