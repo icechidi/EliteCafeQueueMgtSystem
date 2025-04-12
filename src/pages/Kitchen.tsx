@@ -172,7 +172,23 @@ const Kitchen = () => {
       timestamp: new Date().toISOString()
     },
 
-    
+    {
+      id: 19,
+      queueNumber: 49,
+      status: 'pending',
+      items: [
+        {
+          id: 19,
+          name: "Sprit",
+          description: "Soft drink, soda",
+          price: 20.99,
+          category: "DRINKS",
+          image: "/pepsi.jpg"
+        }
+      ],
+      totalAmount: 11.98,
+      timestamp: new Date().toISOString()
+    },
 
 
     
