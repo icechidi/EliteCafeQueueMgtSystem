@@ -78,6 +78,26 @@ const Kitchen = () => {
       totalAmount: 11.98,
       timestamp: new Date().toISOString()
     },
+
+    {
+      id: 46,
+      queueNumber: 44,
+      status: 'pending',
+      items: [
+        {
+          id: 46,
+          name: "Classic Burger",
+          description: "Juicy beef patty with fresh lettuce and tomatoes",
+          price: 5.99,
+          category: "Main Course",
+          image: "/placeholder.svg",
+          quantity: 2
+        }
+      ],
+      totalAmount: 11.98,
+      timestamp: new Date().toISOString()
+    },
+
     {
       id: 3,
       queueNumber: 45,
